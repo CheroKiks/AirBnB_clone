@@ -1,115 +1,93 @@
-# 0x00. AirBnB Clone - The Console
+# 0x01. AirBnB clone - Web static
 
-## Project Overview
+## Resources:books:
+Read or watch:
+* [Learn to Code HTML & CSS](https://intranet.hbtn.io/rltoken/qq7qrSgdVRuD1kPd_jf7Fw)
+* [Inline Styles in HTML](https://intranet.hbtn.io/rltoken/Hx5KFagrj9L-HtAZ8SHK1Q)
+* [Specifics on CSS Specificity](https://intranet.hbtn.io/rltoken/sO3wz-QbhwYdKJqvokC4PA)
+* [CSS SpeciFishity](https://intranet.hbtn.io/rltoken/NvqQf3dgY64bb-QWC5Cueg)
+* [Introduction to HTML](https://intranet.hbtn.io/rltoken/STaxnOI5qv1enUuwIALelw)
+* [CSS](https://intranet.hbtn.io/rltoken/g-uj9Azx1rALX49xCZHK0w)
+* [MDN](https://intranet.hbtn.io/rltoken/El1BHRNNO2hPEcOt_XwF-Q)
+* [center boxes](https://intranet.hbtn.io/rltoken/HI0qRNDq20cgICIhO18kUQ)
 
-Welcome to the AirBnB Clone project! This project involves building a simplified version of the popular AirBnB platform. The main objective is to create a command interpreter that allows users to manage AirBnB objects, such as users, properties, bookings, and more.
+---
+## Learning Objectives:bulb:
+What you should learn from this project:
 
-## Description
+* What is HTML
+* How to create an HTML page
+* What is a markup language
+* What is the DOM
+* What is an element / tag
+* What is an attribute
+* How does the browser load a webpage
+* What is CSS
+* How to add style to an element
+* What is a class
+* What is a selector
+* How to compute CSS Specificity Value
+* What are Box properties in CSS
 
-The AirBnB Clone Console is a command-line interface (CLI) tool that facilitates the management of AirBnB objects. This tool is the first step towards creating a full-fledged web application. By building this console, you'll establish the foundation for subsequent projects, including HTML/CSS templating, database storage, API integration, and front-end development.
+---
 
-## Getting Started
+### [0. Inline styling](./0-index.html)
+* Write an HTML page that displays a header and a footer.
 
-To begin, clone the project repository and follow these steps:
 
-1. Navigate to the project directory:
-   ```bash
-   cd airbnb-clone
-   ```
+### [1. Head styling](./1-index.html)
+* Write an HTML page that displays a header and a footer by using the style tag in the head tag (same as 0-index.html)
 
-2. Create a virtual environment (optional but recommended):
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate
-   ```
 
-3. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+### [2. CSS files](./2-index.html)
+* Write an HTML page that displays a header and a footer by using CSS files (same as 1-index.html)
 
-## Usage
 
-Launch the AirBnB Clone Console by executing the following command:
+### [3. Zoning done!](./3-index.html)
+* Write an HTML page that displays a header and footer by using CSS files (same as 2-index.html)
 
-```bash
-python console.py
-```
 
-You'll enter the interactive mode of the console, where you can manage various AirBnB objects using predefined commands.
+### [4. Search!](./4-index.html)
+* Write an HTML page that displays a header, footer and a filters box with a search button.
 
-## Commands
 
-Here are some of the commands available in the AirBnB Clone Console:
+### [5. More filters](./5-index.html)
+* Write an HTML page that displays a header, footer and a filters box.
 
-- `create <class_name>`: Create a new instance of the specified class.
-- `show <class_name> <instance_id>`: Display details of the specified instance.
-- `all [class_name]`: Display all instances of the specified class or all classes.
-- `update <class_name> <instance_id> <attribute_name> "<attribute_value>"`: Update attributes of a specific instance.
-- `destroy <class_name> <instance_id>`: Delete the specified instance.
-- `quit` or `EOF`: Exit the console.
 
-## Examples
+### [6. It's (h)over](./6-index.html)
+* Write an HTML page that displays a header, footer and a filters box with dropdown.
 
-1. Creating a new user:
-   ```
-   (hbnb) create User
-   ```
 
-2. Showing user details:
-   ```
-   (hbnb) show User 1
-   ```
+### [7. Display results](./7-index.html)
+* Write an HTML page that displays a header, footer, a filters box with dropdown and results.
 
-3. Listing all available users:
-   ```
-   (hbnb) all User
-   ```
 
-4. Updating user information:
-   ```
-   (hbnb) update User 1 name "John Doe"
-   ```
+### [8. More details](./8-index.html)
+* Write an HTML page that displays a header, a footer, a filter box (dropdown list) and the result of the search.
 
-5. Deleting a property:
-   ```
-   (hbnb) destroy Property 5
-   ```
 
-## Testing
+### [9. Full details](./100-index.html)
+* Write an HTML page that displays a header, footer, a filters box with dropdown and results.
 
-Ensure code quality by adhering to the pycodestyle guidelines. Run the following command to check for compliance:
 
-```bash
-pycodestyle .
-```
+### [10. Flex](./101-index.html)
+* Improve the Places section by using Flexible boxes for all Place articles
 
-All classes, functions, and methods must be thoroughly tested using the `unittest` framework. Run the tests using the following command:
 
-```bash
-python3 -m unittest discover tests
-```
+### [11. Responsive design](./102-index.html)
+* Improve the page by adding responsive design to display correctly in mobile or small screens.
 
-Make sure your tests also pass in non-interactive mode:
 
-```bash
-echo "python3 -m unittest discover tests" | bash
-```
+### [12. Accessibility](./103-index.html)
+* Improve the page by adding Accessibility support
 
-## Contributions
+---
 
-We encourage collaboration and teamwork. Use branches and pull requests on GitHub to organize your work effectively. Remember to list all contributors in the AUTHORS file.
+## Author
+* **SarahEmmy** - [SarahEmmy](https://github.com/SarahEmmy)
 
-## Contact
 
-For any questions, concerns, or issues, please reach out to the project maintainers at `team@airbnbclone.com`.
 
-## Acknowledgments
 
-This project is an educational endeavor designed to teach concepts related to Python packages, command interpreters, unit testing, serialization, and more. It draws inspiration from the AirBnB platform.
 
-Have a great time working on the advanced tasks of the AirBnB Clone project! 🏡🌟
-
-Authors 
-SarahEmmy Bawa,
-Cherotich Cherotich
