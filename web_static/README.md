@@ -1,93 +1,67 @@
-# 0x01. AirBnB clone - Web static
+# AirBnB Clone - Web Static Project
 
-## Resources:books:
-Read or watch:
-* [Learn to Code HTML & CSS](https://intranet.hbtn.io/rltoken/qq7qrSgdVRuD1kPd_jf7Fw)
-* [Inline Styles in HTML](https://intranet.hbtn.io/rltoken/Hx5KFagrj9L-HtAZ8SHK1Q)
-* [Specifics on CSS Specificity](https://intranet.hbtn.io/rltoken/sO3wz-QbhwYdKJqvokC4PA)
-* [CSS SpeciFishity](https://intranet.hbtn.io/rltoken/NvqQf3dgY64bb-QWC5Cueg)
-* [Introduction to HTML](https://intranet.hbtn.io/rltoken/STaxnOI5qv1enUuwIALelw)
-* [CSS](https://intranet.hbtn.io/rltoken/g-uj9Azx1rALX49xCZHK0w)
-* [MDN](https://intranet.hbtn.io/rltoken/El1BHRNNO2hPEcOt_XwF-Q)
-* [center boxes](https://intranet.hbtn.io/rltoken/HI0qRNDq20cgICIhO18kUQ)
+This project is part of my journey to learn about web development, HTML, and CSS. It involves creating a static webpage that emulates certain features of the AirBnB platform. Below, you'll find a summary of the resources I used, the learning objectives of the project, and a brief description of each task.
 
----
-## Learning Objectives:bulb:
-What you should learn from this project:
+## Resources
 
-* What is HTML
-* How to create an HTML page
-* What is a markup language
-* What is the DOM
-* What is an element / tag
-* What is an attribute
-* How does the browser load a webpage
-* What is CSS
-* How to add style to an element
-* What is a class
-* What is a selector
-* How to compute CSS Specificity Value
-* What are Box properties in CSS
+I referred to the following resources to complete this project:
 
----
+- [Learn to Code HTML & CSS](https://intranet.hbtn.io/rltoken/qq7qrSgdVRuD1kPd_jf7Fw)
+- [Inline Styles in HTML](https://intranet.hbtn.io/rltoken/Hx5KFagrj9L-HtAZ8SHK1Q)
+- [Specifics on CSS Specificity](https://intranet.hbtn.io/rltoken/sO3wz-QbhwYdKJqvokC4PA)
+- [CSS SpeciFishity](https://intranet.hbtn.io/rltoken/NvqQf3dgY64bb-QWC5Cueg)
+- [Introduction to HTML](https://intranet.hbtn.io/rltoken/STaxnOI5qv1enUuwIALelw)
+- [CSS](https://intranet.hbtn.io/rltoken/g-uj9Azx1rALX49xCZHK0w)
+- [MDN](https://intranet.hbtn.io/rltoken/El1BHRNNO2hPEcOt_XwF-Q)
+- [Center Boxes](https://intranet.hbtn.io/rltoken/HI0qRNDq20cgICIhO18kUQ)
 
-### [0. Inline styling](./0-index.html)
-* Write an HTML page that displays a header and a footer.
+## Learning Objectives
 
+Through this project, I aimed to achieve the following learning objectives:
 
-### [1. Head styling](./1-index.html)
-* Write an HTML page that displays a header and a footer by using the style tag in the head tag (same as 0-index.html)
+- Understand the fundamentals of HTML and how to create web pages.
+- Familiarize myself with markup languages and the Document Object Model (DOM).
+- Learn about elements, tags, and attributes in HTML.
+- Gain insights into how web browsers load webpages.
+- Develop a strong foundation in CSS and its role in styling web content.
+- Apply styles to HTML elements, work with classes, and use selectors.
+- Grasp the concept of CSS specificity and how it affects styling.
+- Explore CSS properties related to box layout.
 
+## Project Tasks
 
-### [2. CSS files](./2-index.html)
-* Write an HTML page that displays a header and a footer by using CSS files (same as 1-index.html)
+The project consisted of multiple tasks, each building on the previous one. Here's a brief overview of each task:
 
+1. **Inline Styling:** Created a simple HTML page with a header and a footer using inline styles.
 
-### [3. Zoning done!](./3-index.html)
-* Write an HTML page that displays a header and footer by using CSS files (same as 2-index.html)
+2. **Head Styling:** Continued by adding styles to the header and footer using the style tag within the head tag.
 
+3. **CSS Files:** Further improved the styling by using external CSS files.
 
-### [4. Search!](./4-index.html)
-* Write an HTML page that displays a header, footer and a filters box with a search button.
+4. **Zoning Done!** Revisited the header and footer styling using external CSS files.
 
+5. **Search!** Extended the webpage to include a filters box with a search button.
 
-### [5. More filters](./5-index.html)
-* Write an HTML page that displays a header, footer and a filters box.
+6. **More Filters:** Enhanced the filters box in the webpage.
 
+7. **It's (h)over:** Incorporated a dropdown in the filters box.
 
-### [6. It's (h)over](./6-index.html)
-* Write an HTML page that displays a header, footer and a filters box with dropdown.
+8. **Display Results:** Integrated search results into the webpage.
 
+9. **More Details:** Provided additional details for search results.
 
-### [7. Display results](./7-index.html)
-* Write an HTML page that displays a header, footer, a filters box with dropdown and results.
+10. **Full Details:** Developed a comprehensive view of search results.
 
+11. **Flex:** Utilized Flexible boxes for improved layout of Place articles.
 
-### [8. More details](./8-index.html)
-* Write an HTML page that displays a header, a footer, a filter box (dropdown list) and the result of the search.
+12. **Responsive Design:** Made the webpage responsive for better display on various devices.
 
-
-### [9. Full details](./100-index.html)
-* Write an HTML page that displays a header, footer, a filters box with dropdown and results.
-
-
-### [10. Flex](./101-index.html)
-* Improve the Places section by using Flexible boxes for all Place articles
-
-
-### [11. Responsive design](./102-index.html)
-* Improve the page by adding responsive design to display correctly in mobile or small screens.
-
-
-### [12. Accessibility](./103-index.html)
-* Improve the page by adding Accessibility support
-
----
+13. **Accessibility:** Ensured the webpage's accessibility by incorporating support for users with disabilities.
 
 ## Author
-* **SarahEmmy** - [SarahEmmy](https://github.com/SarahEmmy)
 
+This project was completed by:
 
+- **SarahEmmy** - [GitHub Profile](https://github.com/SarahEmmy)
 
-
-
+Feel free to explore the project files and learn alongside me as I progress in my web development journey. Your feedback and suggestions are highly appreciated!
