@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Test BaseModel for expected behavior and documentation"""
+"""Testing BaseModel to ensure anticipated functionality and proper documentation."""
 from datetime import datetime
 import inspect
 import models
